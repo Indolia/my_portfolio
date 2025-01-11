@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Gradient Definitions -->
+    <defs>
+        <linearGradient id="gradient-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#41D1FF" />
+            <stop offset="100%" stop-color="#BD34FE" />
+        </linearGradient>
+        <linearGradient id="gradient-text" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#FFEA83" />
+            <stop offset="100%" stop-color="#FFA800" />
+        </linearGradient>
+    </defs>
+
+    <!-- Background Shape -->
+    <circle cx="128" cy="128" r="128" fill="url(#gradient-bg)" />
+
+    <!-- Text "RI" -->
+    <text
+            x="50%"
+            y="55%"
+            text-anchor="middle"
+            dominant-baseline="middle"
+            font-family="Arial, sans-serif"
+            font-size="100"
+            font-style="italic"
+            fill="url(#gradient-text)"
+            font-weight="bold">
+        RI
+    </text>
+</svg>
